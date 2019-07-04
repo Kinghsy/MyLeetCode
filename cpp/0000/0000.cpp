@@ -4,9 +4,12 @@
 
 #include "0000.h"
 
-class Solution {
-public:
-    int SumOfTwoInt(int num1, int num2) {
-        return num1 + num2;
-    }
-};
+using namespace std;
+
+int Solution::SumOfTwoInt(int num1, int num2) {
+    return num1 + num2;
+}
+
+int addTest(int a, int b) {
+    return a+b;
+}
